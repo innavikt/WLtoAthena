@@ -1,0 +1,11 @@
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\bin\Debug\netcoreapp2.2\v1.deps.json
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\bin\Debug\netcoreapp2.2\v1.runtimeconfig.json
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\bin\Debug\netcoreapp2.2\v1.runtimeconfig.dev.json
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\bin\Debug\netcoreapp2.2\v1.dll
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\bin\Debug\netcoreapp2.2\v1.pdb
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\obj\Debug\netcoreapp2.2\v1.csprojAssemblyReference.cache
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\obj\Debug\netcoreapp2.2\v1.csproj.CoreCompileInputs.cache
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\obj\Debug\netcoreapp2.2\v1.AssemblyInfoInputs.cache
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\obj\Debug\netcoreapp2.2\v1.AssemblyInfo.cs
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\obj\Debug\netcoreapp2.2\v1.dll
+C:\Users\Инна\Desktop\IQFeed\WLtoAthena\v1\v1\obj\Debug\netcoreapp2.2\v1.pdb
