@@ -1,2 +1,2 @@
 # WLtoAthena
-some code to make WealthLab to get data from Athena
+some code to make WealthLab get data from Athena
