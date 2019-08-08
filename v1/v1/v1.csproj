@@ -5,9 +5,16 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
   <ItemGroup>
     <Reference Include="WealthLab">
       <HintPath>..\..\..\..\..\..\..\Program Files\MS123\Wealth-Lab Developer 6\WealthLab.dll</HintPath>
+    </Reference>
+    <Reference Include="WealthLab.Indicators">
+      <HintPath>..\..\..\..\..\..\..\Program Files\MS123\Wealth-Lab Developer 6\WealthLab.Indicators.dll</HintPath>
     </Reference>
   </ItemGroup>
 
