@@ -2,6 +2,27 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "AWSSDK.Athena/3.3.100.48": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.3.103.12, 3.4.0)"
+        },
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.Athena.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Athena.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.3.103.12": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        }
+      },
       "Microsoft.NETCore.App/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -211,6 +232,95 @@
     }
   },
   "libraries": {
+    "AWSSDK.Athena/3.3.100.48": {
+      "sha512": "gXj9nvfzr5JJR2bTy/cmMmT2YNgWmOXYadKHHbJTrA7XBAKfd2W01t6vybFb2qPsteXey1VmwemWhCi1rGvcdg==",
+      "type": "package",
+      "path": "awssdk.athena/3.3.100.48",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Athena.CodeAnalysis.dll",
+        "awssdk.athena.3.3.100.48.nupkg.sha512",
+        "awssdk.athena.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Athena.XML",
+        "lib/MonoAndroid10/AWSSDK.Athena.dll",
+        "lib/MonoTouch10/AWSSDK.Athena.XML",
+        "lib/MonoTouch10/AWSSDK.Athena.dll",
+        "lib/MonoTouch10/AWSSDK.Athena.pdb",
+        "lib/Xamarin.iOS10/AWSSDK.Athena.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Athena.dll",
+        "lib/net35/AWSSDK.Athena.dll",
+        "lib/net35/AWSSDK.Athena.pdb",
+        "lib/net35/AWSSDK.Athena.xml",
+        "lib/net45/AWSSDK.Athena.dll",
+        "lib/net45/AWSSDK.Athena.pdb",
+        "lib/net45/AWSSDK.Athena.xml",
+        "lib/netstandard1.3/AWSSDK.Athena.dll",
+        "lib/netstandard1.3/AWSSDK.Athena.pdb",
+        "lib/netstandard1.3/AWSSDK.Athena.xml",
+        "lib/netstandard2.0/AWSSDK.Athena.dll",
+        "lib/netstandard2.0/AWSSDK.Athena.pdb",
+        "lib/netstandard2.0/AWSSDK.Athena.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Athena.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Athena.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Athena.pdb",
+        "lib/uap/AWSSDK.Athena.XML",
+        "lib/uap/AWSSDK.Athena.dll",
+        "lib/uap/AWSSDK.Athena.pdb",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Core/3.3.103.12": {
+      "sha512": "zsrjRddMTHZPFZgX1Cl8+VWo79HKhHOZJwM9qI82pCHHZQUJLYkUpfWBGCDF4d7ffprOQeuhDW19ptzLK6rX9g==",
+      "type": "package",
+      "path": "awssdk.core/3.3.103.12",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.3.103.12.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/MonoAndroid10/AWSSDK.Core.XML",
+        "lib/MonoAndroid10/AWSSDK.Core.dll",
+        "lib/MonoAndroid10/AWSSDK.Core.pdb",
+        "lib/MonoTouch10/AWSSDK.Core.XML",
+        "lib/MonoTouch10/AWSSDK.Core.dll",
+        "lib/Xamarin.Mac20/AWSSDK.Core.XML",
+        "lib/Xamarin.Mac20/AWSSDK.Core.dll",
+        "lib/Xamarin.iOS10/AWSSDK.Core.XML",
+        "lib/Xamarin.iOS10/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.XML",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.dll",
+        "lib/portable-net45+win8+wpa81+wp8/AWSSDK.Core.pdb",
+        "lib/uap/AWSSDK.Core.XML",
+        "lib/uap/AWSSDK.Core.dll",
+        "lib/uap/AWSSDK.Core.pdb",
+        "lib/win8/AWSSDK.Core.XML",
+        "lib/win8/AWSSDK.Core.dll",
+        "lib/win8/AWSSDK.Core.pdb",
+        "lib/wp8/AWSSDK.Core.XML",
+        "lib/wp8/AWSSDK.Core.dll",
+        "lib/wp8/AWSSDK.Core.pdb",
+        "lib/wpa81/AWSSDK.Core.XML",
+        "lib/wpa81/AWSSDK.Core.dll",
+        "lib/wpa81/AWSSDK.Core.pdb",
+        "tools/account-management.ps1"
+      ]
+    },
     "Microsoft.NETCore.App/2.2.0": {
       "sha512": "7z5l8Jp324S8bU8+yyWeYHXUFYvKyiI5lqS1dXgTzOx1H69Qbf6df12kCKlNX45LpMfCMd4U3M6p7Rl5Zk7SLA==",
       "type": "package",
@@ -682,6 +792,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "AWSSDK.Athena >= 3.3.100.48",
+      "AWSSDK.Core >= 3.3.103.12",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -726,6 +838,14 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "AWSSDK.Athena": {
+            "target": "Package",
+            "version": "[3.3.100.48, )"
+          },
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.3.103.12, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",

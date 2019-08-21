@@ -1,0 +1,114 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "0f581d9f4def00141dbf169d18c22d22913645e4"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "v1/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Athena": "3.3.100.48",
+          "AWSSDK.Core": "3.3.103.12",
+          "WealthLab": "1.0.0.0",
+          "WealthLab.Indicators": "1.0.0.0"
+        },
+        "runtime": {
+          "v1.dll": {}
+        }
+      },
+      "AWSSDK.Athena/3.3.100.48": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.103.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Athena.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.100.48"
+          }
+        }
+      },
+      "AWSSDK.Core/3.3.103.12": {
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.103.12"
+          }
+        }
+      },
+      "WealthLab/1.0.0.0": {
+        "runtime": {
+          "WealthLab.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WealthLab.Indicators/1.0.0.0": {
+        "runtime": {
+          "WealthLab.Indicators.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Fidelity.Components/1.0.0.0": {
+        "runtime": {
+          "Fidelity.Components.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "log4net/1.2.10.0": {
+        "runtime": {
+          "log4net.dll": {
+            "assemblyVersion": "1.2.10.0",
+            "fileVersion": "1.2.10.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "v1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Athena/3.3.100.48": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gXj9nvfzr5JJR2bTy/cmMmT2YNgWmOXYadKHHbJTrA7XBAKfd2W01t6vybFb2qPsteXey1VmwemWhCi1rGvcdg==",
+      "path": "awssdk.athena/3.3.100.48",
+      "hashPath": "awssdk.athena.3.3.100.48.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.3.103.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zsrjRddMTHZPFZgX1Cl8+VWo79HKhHOZJwM9qI82pCHHZQUJLYkUpfWBGCDF4d7ffprOQeuhDW19ptzLK6rX9g==",
+      "path": "awssdk.core/3.3.103.12",
+      "hashPath": "awssdk.core.3.3.103.12.nupkg.sha512"
+    },
+    "WealthLab/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WealthLab.Indicators/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fidelity.Components/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "log4net/1.2.10.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
